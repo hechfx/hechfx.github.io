@@ -5,98 +5,6 @@
     text-decoration: none;
 }
 
-.body {
-    width: 70%;
-    display: block;
-    background-color: white;
-}
-
-.text {
-    height: 50%;
-    display: table;
-    float: left;
-}
-
-.text2 {
-    height: 50%;
-    display: table;
-    float: left;
-}
-
-.text3 {
-    height: 70%;
-    display: table;
-    float: left;
-}
-
-.text p {
-    color: black;
-    height: 100%;
-    display: table-cell;
-    vertical-align: middle;
-    font-family: 'Segoe UI';
-    font-size: 40px;
-    text-align: center;
-}
-
-.text img {
-    height: 10%;
-    padding: 205px 10px;
-    display: table-cell;
-    vertical-align: middle;
-}
-
-.text iframe {
-    height: 80%;
-    display: table-cell;
-    vertical-align: super;
-}
-.text2 p {
-    color: black;
-    height: 100%;
-    display: table-cell;
-    vertical-align: middle;
-    font-family: 'Segoe UI';
-    font-size: 40px;
-    text-align: center;
-}
-
-.text2 img {
-    height: 10%;
-    padding: 205px 10px;
-    display: table-cell;
-    vertical-align: middle;
-}
-
-.text2 iframe {
-    height: 80%;
-    display: table-cell;
-    vertical-align: super;
-}
-
-.text3 p {
-    color: black;
-    height: 100%;
-    display: table-cell;
-    vertical-align: middle;
-    font-family: 'Segoe UI';
-    font-size: 40px;
-    text-align: center;
-}
-
-.text3 img {
-    height: 10%;
-    padding: 205px 10px;
-    display: table-cell;
-    vertical-align: middle;
-}
-
-.text3 iframe {
-    height: 80%;
-    display: table-cell;
-    vertical-align: super;
-}
-
 .headText {
     height: 10%;
     display: table;
@@ -138,4 +46,103 @@
     100% {
       color: #6666ff;
     }
+}
+
+.body {
+    width: 100%;
+    display: block;
+    background-color: white;
+}
+
+.text {
+    height: 100%;
+    display: table;
+    float: left;
+}
+
+.text p {
+    color: black;
+    font-family: 'Segoe UI';
+    font-size: 40px;
+    position: relative;
+    top: -100px;
+    left: -140px;
+}
+
+.text img {
+    position:relative;
+    top: -200px; 
+    left: 200px;
+    width: 100px;
+    height: 100px;
+}
+
+.text iframe {
+    position:relative;
+    top: 150px; 
+    left: -475px;
+    width: 320px;
+    height: 500px;
+}
+
+.text2 {
+    height: 100%;
+    display: table;
+    float: left;
+}
+
+.text2 p {
+    color: black;
+    font-family: 'Segoe UI';
+    font-size: 40px;
+    position: relative;
+    top: 400px;
+    left: -485px;
+}
+
+.text2 img {
+    position:relative;
+    top: 300px; 
+    left: -180px;
+    width: 100px;
+    height: 100px;
+}
+
+.text2 iframe {
+    position:relative;
+    top: 700px; 
+    left: -815px;
+    width: 320px;
+    height: 500px;
+}
+
+.text3 {
+    height: 100%;
+    display: table;
+    float: left;
+}
+
+.text3 p {
+    color: black;
+    font-family: 'Segoe UI';
+    font-size: 40px;
+    position: relative;
+    top: 100px;
+    left: 5px;
+}
+
+.text3 img {
+    position:relative;
+    top: 0px; 
+    left: 250px;
+    width: 100px;
+    height: 100px;
+}
+
+.text3 iframe {
+    position:relative;
+    top: 350px; 
+    left: -325px;
+    width: 320px;
+    height: 500px;
 }
